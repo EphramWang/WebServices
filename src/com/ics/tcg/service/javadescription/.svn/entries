@@ -1,83 +1,0 @@
-10
-
-dir
-122
-https://172.16.166.20:8443/svn/tcg/trunk/WebServices/src/com/ics/tcg/service/javadescription
-https://172.16.166.20:8443/svn/tcg
-
-
-
-2009-09-12T09:04:04.687500Z
-122
-tcg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8d2b10b3-7cfe-dd40-b8cb-7ad574edcd67
-
-sms
-dir
-
-weatherforecastservice
-dir
-
-bookroomservice
-dir
-
-emailservice
-dir
-
-bookbusticketservice
-dir
-
-bookairticketservice
-dir
-
-DataType.java
-file
-
-
-
-
-2009-09-12T07:07:47.718750Z
-dcc19a836dcd78bb269bf07b731395c8
-2009-09-12T09:04:04.687500Z
-122
-tcg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-212
-
-booktrainticketservice
-dir
-
