@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+	<service name="BookRoomService5" provider="java:RPC">
+		<parameter name="className" value="com.ics.tcg.service.javadescription.bookroomservice.BookRoomService5"></parameter>
+		<parameter name="allowedMethods" value="*"></parameter>
+		<beanMapping qname="myNS:BookRoomRequestList" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.BookRoomRequestList"></beanMapping>
+		<beanMapping qname="myNS:BookRoomResponseList" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.BookRoomResponseList"></beanMapping>
+		<beanMapping qname="myNS:BookRoomResponseInfo" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.BookRoomResponseInfo"></beanMapping>
+		<beanMapping qname="myNS:BookRoomRequestInfo" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.BookRoomRequestInfo"></beanMapping>
+		<beanMapping qname="myNS:RoomStateRequest" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.RoomStateRequest"></beanMapping>
+		<beanMapping qname="myNS:RoomStateResponse" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.RoomStateResponse"></beanMapping>
+		<beanMapping qname="myNS:RoomPriceRequest" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.RoomPriceRequest"></beanMapping>
+		<beanMapping qname="myNS:RoomPriceResponse" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.RoomPriceResponse"></beanMapping>
+		<beanMapping qname="myNS:UserInfo" xmlns:myNS="urn:BookRoomService5" languageSpecificType="java:com.ics.tcg.service.javadescription.bookroomservice.UserInfo"></beanMapping></service></deployment>

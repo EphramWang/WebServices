@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+	<service name="EmailService8" provider="java:RPC">
+		<parameter name="className" value="com.ics.tcg.service.javadescription.emailservice.EmailService8"></parameter>
+		<parameter name="allowedMethods" value="*"></parameter>
+		<beanMapping qname="myNS:EmailSendRequest" xmlns:myNS="urn:EmailService8" languageSpecificType="java:com.ics.tcg.service.javadescription.emailservice.EmailSendRequest"></beanMapping></service></deployment>
